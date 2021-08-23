@@ -1,0 +1,38 @@
+.listing {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.cards {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card {
+	border: 1px solid black;
+}
+
+.card img {
+	width: 100%;
+	height: 250px;
+}
+
+.card-details {
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+}
+.card h2 {
+	font-size: 25px;
+}
+
+.card button {
+	cursor: pointer;
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 23px;
+	background-color: #444469;
+}
